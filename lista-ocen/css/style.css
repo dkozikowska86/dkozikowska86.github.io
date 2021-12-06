@@ -1,0 +1,97 @@
+* {
+    background-color: #1e3768;
+    color: white;
+    box-sizing: border-box;
+}
+
+div#arkusz-ocen { 
+    width: 97%;
+    margin: auto;
+}
+
+span,
+input {
+    display:inline-block;
+    padding: 5px 5px;
+    width: 100px;
+    text-align: center;
+}
+
+h2,
+div#title > span.tytul,
+button#oblicz {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+div#title,
+div[id^="uczen"] {
+   background-color:  #ff7900;
+   padding: 2px;
+}
+
+span.uczen {
+    width: 180px;
+}
+
+div#title > span.tytul {
+    background-color:  #ff7900;
+    font-size: .8em;
+    padding-top: 10px;
+}
+
+span.uczen.nazwisko,
+input.zajecia-dodatkowe {
+    text-align: left;
+}
+
+input.zajecia-dodatkowe,
+span.tytul.zajecia-dodatkowe {
+  width: 220px;
+}
+
+span.tytul.srednia,
+span.srednia {
+    width: 115px;
+}
+
+button#oblicz {
+    background-color: #ff7900;
+    margin-top: 30px;
+    padding: 10px 18px;
+    border: white 1px solid;
+}
+
+button#oblicz:hover {
+    background-color: #ff5100;
+    border: white 2px solid;
+}
+
+.zieloneTlo {
+    background-color: green;
+}
+
+.czerwoneTlo {
+    background-color: red;
+}
+
+.podwyzszonaOcena {
+    color: yellow;
+    font-weight: 600;
+}
+
+ul#alerty {
+    font-size: 1.2em;
+    color:#ff7900;
+    font-weight: 700;
+    margin: 10px 0px 20px 10px;
+}
+
+ul#alerty li {
+    padding-top: 10px;
+    color:#ff7900;
+    font-size: initial;
+    font-weight: initial;
+}
+
+
