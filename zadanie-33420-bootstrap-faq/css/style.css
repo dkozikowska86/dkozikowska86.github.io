@@ -5,23 +5,10 @@
 div.faq {
     margin: 30px auto 20px auto;
     width: 200px;
-    text-align: center;
     font-weight: 600;
     color: grey;
 }
 
 button.czerwony {
     color:rgba(165, 42, 42, 0.671);
-}
-
-button.collapsed {
-    border: none;
-}
-
-.btn.focus, .btn:focus{
-    box-shadow: none;
-}
-
-div.card-body {
-    text-align: center;
 }
