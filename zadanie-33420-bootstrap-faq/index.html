@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>BOOTSTRAP ACCORDION</title>
+</head>
+
+<body>
+
+
+    <div class="faq">
+        <h1>FAQ</h1>
+        <hr>
+    </div>
+
+
+    <div class="container kontener">
+        <div class="accordion" id="accordionExample">
+
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center czerwony" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Kim jest Front End Developer?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        Frontend Developer odpowiada przede wszystkim za to, co widzą użytkownicy danej aplikacji czy
+                        też interaktywnej strony internetowej. Jest więc odpowiedzialny za wprowadzenie różnego rodzaju
+                        elementów graficznych i animacji do projektu.
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center collapsed czerwony" type="button"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Od czego zaczyna się nauka?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Musisz samodzielnie przyswoić ogrom wiedzy. Osoby pragnące zacząć pracę jako front-end developer
+                        początkowe doświadczenie mogą zacząć zdobywać projektując proste strony internetowe, chociażby
+                        związane z własnym hobby.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-center collapsed czerwony" type="button"
+                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Znam już podstawy, co dalej?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Język angielski. Junior front-end developer powinien znać język angielski przynajmniej w stopniu
+                        średniozaawansowanym i cały czas się go uczyć. Jest potrzebny do komunikacji, pisania i pracy z
+                        kodem, korzystania z narzędzi oraz do nauki, bo znaczna część materiałów nie została jeszcze
+                        przetłumaczona na język.<br><br>
+                        Języki programowania. Junior front-end developer powinien znać już trzy podstawowe języki
+                        potrzebne do tworzenia serwisów i aplikacji, czyli HTML, CSS i JavaScript. Stopień znajomości
+                        zależy w głównej mierze od wymagań danego stanowiska. Natomiast dobrze jest znać ich
+                        najważniejsze konstrukcje, wiedzieć, jak i do czego je wykorzystywać oraz potrafić stworzyć
+                        prosty, ale działający i przejrzysty<br><br>
+                        Frameworki. Dobra znajomość pakietów programistycznych jest przydatna i ważna w codziennej pracy
+                        front-end developera. Oszczędzają mnóstwo pracy i błędów – dzięki dostępnym szkieletom stron i
+                        aplikacji nie trzeba pisać kodu „od zera”, a jedynie dodawać do niego poszczególne fragmenty.
+                        Znajomość Bootstrap, Backbone czy AngularJS jest często wymagana przez samych pracodawców.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+            crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
