@@ -1,0 +1,38 @@
+div#container {
+    top: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: rgb(85, 83, 83);
+}
+
+div.naglowek {
+    justify-content: center;
+}
+
+div.kolo {
+    height: 6em;
+    width: 6em;
+    background-color: lightgrey;
+    border: solid 1px transparent;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px;
+    margin: 0 auto 20px auto;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(85, 83, 83);
+}
+
+article {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.kolo i {
+    color: orange;
+    font-size: 4em;
+    line-height: unset;
+}
